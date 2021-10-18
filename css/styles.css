@@ -249,7 +249,6 @@ border-width: 0 0 1px 0;
 }
 
 .features .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -295,7 +294,6 @@ border-width: 0 0 1px 0;
 }
 
 .team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -326,26 +324,21 @@ border-width: 0 0 1px 0;
   margin-bottom: 9px;
 }
 
-/* .auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
-} */
-
 .address-primary {
   color: var(--secondary-text-color);
-}
-
-.address-primary:hover,
-.address-primary:hover {
-  color: var(--accent-color);
 }
 
 .address-secondary {
   color: var(--third-text-color);
 }
 
+.address-primary:hover,
+.address-primary:focus {
+  color: var(--accent-color);
+}
+
 .address-secondary:hover,
-.address-secondary:hover {
+.address-secondary:focus {
   color: var(--accent-color);
 }
 
@@ -406,7 +399,6 @@ border-width: 0 0 1px 0;
 
 .portfolio .text {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
